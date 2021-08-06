@@ -1,0 +1,20 @@
+环境信息详见报告附录
+软件	操作系统	Windows 10（1909）
+	开发语言	Python 3.7.6
+	开发用库	基本的标准库如os、sys、math、random
+
+Q1：情景一
+先运行C.py 然后依次A.py、B.py
+二人成绩以在C.py中的输入为准，
+过程中文件传递可见AB两个文件夹
+
+Q2：情景二
+先运行A.py，之后根据提示信息运行即可
+成绩应事先在grade_A(B).txt中给定，优良中差之一
+dh/elgamal/initialization无需单独运行
+
+Q3：情景三
+先运行A.py，之后根据提示信息运行即可
+成绩应事先在A/A_grade.txt（B/B_grade.txt）中给定，
+过程中文件传递可见ABC三个文件夹
+注：程序中C得知是否相同的结果后有一次ElGamal加密，实际上可以不加，暂且保留。
